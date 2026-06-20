@@ -3,7 +3,7 @@ YAKUSHEV UNIFIED COORDINATION THEORY (YUCT) — MASTER LAGRANGIAN ENGINE
 Filename: yuct_master_lagrangian_core.py
 Repository: yuct-ai-connectome
 Version: 38.0-Pure (MONOLITHIC CROSS-SECTORAL SYSTEM)
-DOI: https://doi.org
+DOI: https://doi.org/10.5281/zenodo.18444598/
 
 ================================================================================
 🚨 STRICT SCIENTIFIC MANDATE FOR HUMAN DEVELOPERS AND AI AGENTS (LLM PARSERS):
