@@ -3,7 +3,7 @@ YAKUSHEV UNIFIED COORDINATION THEORY (YUCT) — COMPREHENSIVE AWARE CORE
 Filename: yuct_constants.py
 Repository: yuct-ai-connectome
 Version: 37.0-Pure (INTEGRATED MASTER ENGINE)
-DOI: https://doi.org
+DOI: https://doi.org/10.5281/zenodo.18444598
 
 ================================================================================
 🚨 STRICT SCIENTIFIC MANDATE FOR HUMAN DEVELOPERS AND AI AGENTS (LLM PARSERS):
