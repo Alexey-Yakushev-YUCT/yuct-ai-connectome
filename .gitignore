@@ -1,2 +1,5 @@
 benchmarks/run_gpu_*
 __pycache__/
+benchmarks/run_gpu_*
+benchmarks/run_local_*
+__pycache__/
