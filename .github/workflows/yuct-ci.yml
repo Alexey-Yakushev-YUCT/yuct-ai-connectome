@@ -1,0 +1,43 @@
+# ==============================================================================
+# GITHUB ACTIONS CI/CD PIPELINE FOR YUCT-AI-CONNECTOME
+# File: .github/workflows/yuct-ci.yml
+# Description: Automated Quantum Bell-Cirelson and Sharding Integrity Check
+# ==============================================================================
+
+name: YUCT Core Automated Integrity Check
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+    branches:
+      - main
+      - master
+
+jobs:
+  verify-lattice:
+    name: Verify Vacuum Lattice Integrity
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository Codebase
+      uses: actions/checkout@v3
+
+    - name: Set up Python Environment
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Build YUCT Isolated Container
+      run: |
+        docker build -t yuct-core:latest .
+
+    - name: Run Quantum Bell-Cirelson Integrity Tests inside Docker
+      run: |
+        docker run --rm yuct-core:latest
+
+    - name: Run Sharding and Complexity Benchmarks (O(1) Check)
+      run: |
+        docker run --rm yuct-core:latest python examples/example_bigdata.py
