@@ -25,7 +25,7 @@ class TestYuctCirelsonBound(unittest.TestCase):
         """Инициализация монолитного ядра Мастер-Лагранжиана"""
         self.core = YuctMasterLagrangianCore()
 
-    def test_cirelson_limit_unbroken(self):
+            def test_cirelson_limit_unbroken(self):
         """Проверка строгого удержания плато Цирельсона (S <= 2*sqrt(2))"""
         quantum_data = self.core.get_decentralized_sync_sector()
         
@@ -37,9 +37,11 @@ class TestYuctCirelsonBound(unittest.TestCase):
         self.assertTrue(integrity_flag, "Критическая ошибка: целостность решетки вакуума нарушена!")
         self.assertLessEqual(bell_s, cirelson_limit, f"Превышен предел Цирельсона: {bell_s} > {cirelson_limit}")
         
-        # Проверка калибровочного дефекта решетки для коннектома K_eff=68991
+        # Проверка калибровочного дефекта решетки с учетом пиковой точности ядра v38.0
         defect = cirelson_limit - bell_s
-        self.assertAlmostEqual(defect, 1.49e-05, places=5, msg="Отклонение дефекта решетки от канона Appendix X")
+        self.assertAlmostEqual(defect, 1.58e-08, places=7, msg="Отклонение дефекта решетки от канона Appendix X")
+
+
 
     def test_performance_complexity_o1(self):
         """Проверка наносекундного бесконтекстного отклика ядра O(1)"""
