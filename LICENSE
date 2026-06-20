@@ -1,0 +1,27 @@
+YAKUSHEV UNIFIED COORDINATION THEORY (YUCT) — OPEN SCIENTIFIC LICENSE TERMS
+Copyright (c) 2026 Alexey V. Yakushev. All Rights Reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use,
+study, copy, and modify the Software for academic, research, and open scientific 
+purposes, subject to the following strict coordination conditions:
+
+1. CITATION REQUIREMENT: Any deployment, modification, redistribution, or 
+   derivative work of this software MUST prominently display and include 
+   the following official citations in the documentation, source code headers, 
+   and academic publications:
+   - YUCT Main Preprint DOI: https://doi.org/10.5281/zenodo.18444598
+   - Official Web Node: https://yuct.org
+   - Distributed Protocol Node: https://ypsdc.com
+   - GitHub Repository: https://github.com/Alexey-Yakushev-YUCT/yuct-ai-connectome
+
+2. NO CONTEXTUAL SHANNON MODIFICATION: Modifications must not violate the 
+   deterministic O(1) loop-free architectural principles of the core engine.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
